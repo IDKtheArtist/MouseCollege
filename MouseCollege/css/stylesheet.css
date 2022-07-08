@@ -1,0 +1,96 @@
+:root {
+    --color-white: #fff;
+    --color-black: #000;
+    --color-red: rgb(189, 11, 11);
+    --color-blue: rgb(23, 20, 150);
+    --color-lightblue: #91B5FF;
+    --color-offwhite: rgb(223, 220, 211);
+}
+
+* {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: var(--color--white);
+    max-width: 100%;
+}
+
+.banner {
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: var(--color-lightblue);
+}
+
+.banner-links {
+    color: var(--color-red);
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+}
+
+.banner-links h3 a {
+    color: var(--color-red);
+}
+
+.today {
+    background-color: var(--color-offwhite);
+    padding-top: 1.2rem;
+    padding-bottom: 1.2rem;
+}
+
+.today-title {
+    display: flex;
+    justify-content: center;
+}
+
+.today-announcement {
+    display: flex;
+    justify-content: center;
+    color: var(--color-red);
+}
+
+.today-text {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.general-info p {
+    max-width: 60%;
+    text-align: left;
+}
+
+.column {
+    float: left;
+    width: 30.33%;
+    padding: 10px;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.column h2 {
+    color: var(--color-red);
+    text-align: center;
+}
+
+.ql {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.ql-title {
+    display: flex;
+    justify-content: center;
+}
+
+.ql h5 a {
+    color: var(--color-blue);
+}
+
+.general-link p a {
+    color: var(--color-red);
+}
